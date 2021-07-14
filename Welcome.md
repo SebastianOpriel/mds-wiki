@@ -1,1 +1,0 @@
-__Welcome to the mobility-data-space wiki!
