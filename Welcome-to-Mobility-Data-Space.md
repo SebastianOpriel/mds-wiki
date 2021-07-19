@@ -26,4 +26,4 @@ Das User Interface des Brokers ist zu erreichen unter https://broker.mobilitydat
 Die IDS Schnittstelle zum Publizieren einer Resource ist zu erreichen unter https://ids.broker.mobilitydataspace.io/infrastructure
 
 ## Ontologie
-Der Datenraum Mobilität verwendet die [MobiDS Ontologie](../main/ontology/MobiDS-Ontology.ttl)
+Der Datenraum Mobilität verwendet die [MobiDS Ontologie](../blob/main/ontology/MobiDS-Ontology.ttl)
