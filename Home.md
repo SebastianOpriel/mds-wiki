@@ -2,8 +2,8 @@
 
 ## Access to Mobility Data Space 
 
-To get access to the data room with your connector, you first need a valid DAPS token. You can request this token under Requested & Issued Demo certificates or directly from Gerd Brost.
-If you are using the Dataspace Connector, you can configure your connector with tokens as described under  Dataspace Connector-Configuration. Now you can connect your connector e.g. to one of the brokers to publish your own resources or request resources from other connectors in the dataspace.
+To get access to the data room with your connector, you first need a valid DAPS token. You can request this token under [Requested & Issued Demo certificates](https://industrialdataspace.jiveon.com/docs/DOC-2002) or directly from [Gerd Brost](https://www.dataspaces.fraunhofer.de/de/software/identity_provider.html).
+If you are using the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), you can configure your connector with tokens as described under  [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration). Now you can connect your connector e.g. to one of the brokers to publish your own resources or request resources from other connectors in the dataspace.
 
 ## Stages
 There are two separate stages or environments of the Mobility Data Space. There is a test environment and a demo environment. As the name implies, the test environment is used to test new connectors and resources. 
