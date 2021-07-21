@@ -1,31 +1,27 @@
 # Welcome to Mobility Data Space
 
-## Zugang zum Datenraum Mobilität
+## Access to Mobility Data Space 
 
-Um mit ihrem Connector Zugang zum Datenraum zu erhalten, benötigen Sie zuerst ein gültiges DAPS Token. 
-Dieses Token können Sie beantragen unter [Requested & Issued Demo certificates](https://industrialdataspace.jiveon.com/docs/DOC-2002)
-oder direkt bei [Gerd Brost](https://www.dataspaces.fraunhofer.de/de/software/identity_provider.html).
-
-Wenn Sie den [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector) nutzen, können Sie Ihren Connector mit Token wie unter [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration)
-beschrieben konfigurieren. Nun können Sie Ihren Connector z.B. mit einem der Broker verbinden um eigene Ressourcen zu veröffentlichen oder Resourcen von anderen Connectoren im Datenraum anfragen.
+To get access to the data room with your connector, you first need a valid DAPS token. You can request this token under Requested & Issued Demo certificates or directly from Gerd Brost.
+If you are using the Dataspace Connector, you can configure your connector with tokens as described under  Dataspace Connector-Configuration. Now you can connect your connector e.g. to one of the brokers to publish your own resources or request resources from other connectors in the dataspace.
 
 ## Stages
-Es existieren zwei voneinander getrennte Stages oder Umgebungen des Datenraums Mobilität. Eine Testumgebung und eine Demoumgebung. Wie der Name schon sagt, wird die Testumgebung zum Testen neuer Connectoren und Ressourcen verwendet.
-Haben Sie einen neuen Connector sollten Sie ihn zuerst in der Testumgebung testen.
+There are two separate stages or environments of the Mobility Data Space. There is a test environment and a demo environment. As the name implies, the test environment is used to test new connectors and resources. 
+If you have a new connector, you should first test it in the test environment.
 
-### Testumgebung
-Eine Übersicht über die Testumgebung gibt es hier: https://logging.test.mobilitydataspace.io/
+### Test environment
+An overview of the test environment can be found here: https://logging.test.mobilitydataspace.io/
 
 #### Broker
 Das User Interface des Brokers ist zu erreichen unter https://broker.test.mobilitydataspace.io/resources
 Die IDS Schnittstelle zum Publizieren einer Resource ist zu erreichen unter https://ids.broker.test.mobilitydataspace.io/infrastructure
 
-### Demoumgebung
-Eine Übersicht über die Testumgebung gibt es hier: https://logging.mobilitydataspace.io/
+### Demo environment
+An overview of the test environment can be found here: https://logging.mobilitydataspace.io/
 
 #### Broker
-Das User Interface des Brokers ist zu erreichen unter https://broker.mobilitydataspace.io/resources
-Die IDS Schnittstelle zum Publizieren einer Resource ist zu erreichen unter https://ids.broker.mobilitydataspace.io/infrastructure
+The user interface of the broker can be found at https://broker.mobilitydataspace.io/resources  
+The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure.
 
-## Ontologie
-Der Datenraum Mobilität verwendet die [MobiDS Ontologie](../blob/main/ontology/MobiDS-Ontology.ttl)
+## Ontology
+The Mobility Data Space uses the MobiDS Ontologie. 
