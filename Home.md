@@ -13,14 +13,14 @@ If you have a new connector, you should first test it in the test environment.
 ### Test environment
 An overview of the test environment can be found here: https://logging.test.mobilitydataspace.io/
 
-#### Broker
-Das User Interface des Brokers ist zu erreichen unter https://broker.test.mobilitydataspace.io/resources
-Die IDS Schnittstelle zum Publizieren einer Resource ist zu erreichen unter https://ids.broker.test.mobilitydataspace.io/infrastructure
+#### Broker / Metadata Catalog
+The user interface of the broker can be found at https://broker.test.mobilitydataspace.io/resources
+The IDS interface for publishing a resource can be found at https://ids.broker.test.mobilitydataspace.io/infrastructure
 
 ### Demo environment
 An overview of the test environment can be found here: https://logging.mobilitydataspace.io/
 
-#### Broker
+#### Broker / Metadata Catalog
 The user interface of the broker can be found at https://broker.mobilitydataspace.io/resources  
 The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure.
 
