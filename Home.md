@@ -15,14 +15,16 @@ An overview of the test environment can be found here: https://logging.test.mobi
 
 #### Broker / Metadata Catalog
 The user interface of the broker/metadata catalog can be found at https://broker.test.mobilitydataspace.io/resources
-The IDS interface for publishing a resource can be found at https://ids.broker.test.mobilitydataspace.io/infrastructure
+The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
+The IDS interface for publishing a resource can be found at https://ids.broker.test.mobilitydataspace.io/infrastructure **(available for POST requests only)**
 
 ### Demo environment
 An overview of the test environment can be found here: https://logging.mobilitydataspace.io/
 
 #### Broker / Metadata Catalog
 The user interface of the broker/metadata catalog can be found at https://broker.mobilitydataspace.io/resources  
-The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure.
+The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
+The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure **(available for POST requests only)**.
 
 ## Ontology
 The Mobility Data Space uses the MobiDS Ontologie. 
