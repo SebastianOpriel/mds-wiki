@@ -18,6 +18,12 @@ The user interface of the broker/metadata catalog can be found at https://broker
 The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
 The IDS interface for publishing a resource can be found at https://ids.broker.test.mobilitydataspace.io/infrastructure **(available for POST requests only)**
 
+#### Clearing House
+For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
+The Clearing House URL for the test stage is https://logging.test.mobilitydataspace.io/messages/log/
+In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
+More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
+
 ### Demo environment
 An overview of the test environment can be found here: https://logging.mobilitydataspace.io/
 
@@ -25,6 +31,12 @@ An overview of the test environment can be found here: https://logging.mobilityd
 The user interface of the broker/metadata catalog can be found at https://broker.mobilitydataspace.io/resources  
 The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
 The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure **(available for POST requests only)**.
+
+#### Clearing House
+For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
+The Clearing House URL for the test stage is https://logging.mobilitydataspace.io/messages/log/
+In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
+More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
 ## Ontology
 The Mobility Data Space uses the MobiDS Ontologie. 
