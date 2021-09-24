@@ -7,7 +7,7 @@ To get access to the data room with your connector, you first need a valid DAPS 
 If you are using the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), you can configure your connector with tokens as described under  [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration). Now you can [connect your connector e.g. to one of the brokers](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS#testing-the-connector-communication) to publish your own resources or request resources from other connectors in the dataspace.
 
 ## Stages
-There are two separate stages or environments of the Mobility Data Space. There is a test environment and a demo environment. As the name implies, the test environment is used to test new connectors and resources. 
+There are two separate stages or environments of the Mobility Data Space. There is a test environment and a pilot environment. As the name implies, the test environment is used to test new connectors and resources. 
 If you have a new connector, you should first test it in the test environment.
 
 ### Test environment
@@ -24,8 +24,8 @@ The Clearing House URL for the test stage is https://logging.test.mobilitydatasp
 In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
 More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
-### Demo environment
-An overview of the test environment can be found here: https://logging.mobilitydataspace.io/
+### Pilot environment
+An overview of the pilot environment can be found here: https://logging.mobilitydataspace.io/
 
 #### Broker / Metadata Catalog
 The user interface of the broker/metadata catalog can be found at https://broker.mobilitydataspace.io/resources  
