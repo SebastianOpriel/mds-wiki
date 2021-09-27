@@ -5,8 +5,8 @@ The certificate will be send to you in a zip-File by e-Mail. The zip-File contai
 
 # Testing the connector communication
 To check if your connector can communicate with others in the MDS you can register your connector at the [MDS Test Broker](https://broker.test.mobilitydataspace.io/connector). Follow these steps to register your connector:
-1. Browse to the OpenApi Frontend of your connector. If you have your connector running locally on port 8080 this would be https://localhost:8080/api/docs
-Please note, that the application uses Spring Security. Each endpoint behind /** needs a [user authentication](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#authentication).
+1. Browse to the OpenApi Frontend of your connector. If you have your connector running locally on port 8080 this would be https://localhost:8080/api/docs 
+<br>Please note, that the application uses Spring Security. Each endpoint behind /** needs a [user authentication](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#authentication).
 2. Scroll down to the [IDS Messages](https://localhost:8080/api/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/IDS%20Messages) section. 
 3. Open the [Connector Update Message](https://localhost:8080/api/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/IDS%20Messages/sendConnectorUpdateMessage_3)
 4. Select __Try it out__ on the right hand side.
