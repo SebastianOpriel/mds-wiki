@@ -10,6 +10,8 @@ If you are using the [Dataspace Connector](https://github.com/International-Data
 There are two separate stages or environments of the Mobility Data Space. There is a test environment and a pilot environment. As the name implies, the test environment is used to test new connectors and resources. 
 If you have a new connector, you should first test it in the test environment.
 
+Please note that there is no logical link between the _test mode_ of the Dataspace Connector and the Mobility Data Space _test environment_. You need to use the **productive mode** of the Dataspace Connector to register in the Broker **test environment**.
+
 ### Test environment
 An overview of the test environment can be found here: https://logging.test.mobilitydataspace.io/
 
