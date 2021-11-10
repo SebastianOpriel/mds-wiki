@@ -66,7 +66,7 @@ Use the endpoint `POST ​/api​/representations​/{id}​/artifacts` insertin
 <br/>
 <br/>
 
-**Step 4.** Create a usage policy
+**Step 4.** Create an usage policy
 
 An overview of existing usage policies can be found [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl)
 You can use the endpoint `POST /api/examples/policy` to create an usage policy you needed. Input samples for different policies are presented [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl). In this example the simpliest policy "provide access" (data usage is allowed) is used.
@@ -77,10 +77,42 @@ You can use the endpoint `POST /api/examples/policy` to create an usage policy y
 
 **Step 5.** Create a _rule_
 
-You can just copy the created policy into the value attribute field (escape internal quotation marks with backslashes if needed).
+You can just copy the created policy into the "value" attribute field (escape internal quotation marks with backslashes if needed).
 
 <img src="https://user-images.githubusercontent.com/91048868/141153874-e79e3ce3-52fb-4692-8e40-2ff1e56e528f.jpg" width=350>
 <br/>
 <br/>
 
 **Step 6.** Create a _contract_
+
+<img src="https://user-images.githubusercontent.com/91048868/141156014-3b645370-f328-49de-9217-680655c0cbdf.jpg" width=400>
+<br/>
+<br/>
+
+**Step 7.** Link the _rule_ to the _contract_
+
+Use the endpoint `POST ​/api​/contracts​/{id}​/rules` inserting the _contract_ **ID** and the _rule_ **URI** in the appropriate fields. 
+
+<img src="https://user-images.githubusercontent.com/91048868/141157105-8e6a6741-6241-46e9-b8d9-038417ce004e.jpg" width=550>
+<br/>
+<br/>
+
+**Step 8.** Create an _offer_
+
+<img src="https://user-images.githubusercontent.com/91048868/141161189-bd8cace2-9724-4504-be71-fcfa4f2cd5fd.jpg" width=450>
+<br/>
+<br/>
+
+Please note, that "[offer] title" and "[offer] description" are **key descriptions to represent your offer**, which are located directly in the broker catalog.
+
+**Step 9.** Link the _representation_ to the _offer_
+
+**Step 10.** Link the _contract_ to the _offer_
+
+**Step 11.** Create a _catalog_
+
+**Step 12.** Link the _offer_ to the _catalog_
+
+**Step 13.** Update The connector
+
+**Step 14.** Register your resourse at the broker
