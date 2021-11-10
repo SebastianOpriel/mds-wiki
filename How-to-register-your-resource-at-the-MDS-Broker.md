@@ -22,7 +22,7 @@ Alternatively you can use the Swagger UI of the Dataspace Connector to create al
 
 ### Basic features of Swagger UI
 
-Swagger UI allows to visualize the REST API’s components and interact with them. Each component you created has a self-description link, which can be used as complete URI (red marked below) or as ID (yellow marked below).
+Swagger UI allows to visualize the REST API’s components and interact with them. Each component you created has a self-description link, which can be used as **complete URI** (red marked below) or as **ID** (yellow marked below).
 
 <img src="https://user-images.githubusercontent.com/91048868/141110162-b3081d87-45a2-4ebb-8554-5b1154193e9c.jpg" width=700>
 
@@ -49,7 +49,38 @@ HTTP Responses with codes 200, 201 or 204 would mean that your interaction was s
 To provide your raw data you need create an artifact. For this test example an attrubute `value` containing a simple string is used. In the productive service you will use an attribute `accessUrl` to define your remote data source, as explained [here](https://international-data-spaces-association.github.io/DataspaceConnector/CommunicationGuide/v6/Provider#option-2-add-remote-data). 
 
 <img src="https://user-images.githubusercontent.com/91048868/141141000-14f646c0-f533-4910-9f9b-48635703d1dc.jpg" width=300>
+<br/>
+<br/>
 
-**Step 2. ** Create a _representation_
+**Step 2.** Create an _representation_
 
-<img src="https://user-images.githubusercontent.com/91048868/141144750-569c3961-08e2-432d-9e62-234678c4fdc8.jpg" width=300>
+<img src="https://user-images.githubusercontent.com/91048868/141144750-569c3961-08e2-432d-9e62-234678c4fdc8.jpg" width=350>
+<br/>
+<br/>
+
+**Step 3.** Link the _artifact_ to the _representation_
+
+Use the endpoint `POST ​/api​/representations​/{id}​/artifacts` inserting the _representation_ **ID** and the _artifact_ **URI** in the appropriate fields. 
+
+<img src="https://user-images.githubusercontent.com/91048868/141148819-483988b8-d8a4-4aae-9551-3684552ca667.jpg" width=550>
+<br/>
+<br/>
+
+**Step 4.** Create a usage policy
+
+An overview of existing usage policies can be found [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl)
+You can use the endpoint `POST /api/examples/policy` to create an usage policy you needed. Input samples for different policies are presented [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl). In this example the simpliest policy "provide access" (data usage is allowed) is used.
+
+<img src="https://user-images.githubusercontent.com/91048868/141151385-ebd9d11f-3645-478c-b5a6-1a6fa81f0ded.jpg" width=350>
+<br/>
+<br/>
+
+**Step 5.** Create a _rule_
+
+You can just copy the created policy into the value attribute field (escape internal quotation marks with backslashes if needed).
+
+<img src="https://user-images.githubusercontent.com/91048868/141153874-e79e3ce3-52fb-4692-8e40-2ff1e56e528f.jpg" width=350>
+<br/>
+<br/>
+
+**Step 6.** Create a _contract_
