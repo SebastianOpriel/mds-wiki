@@ -23,3 +23,5 @@ Alternatively you can use the Swagger UI of the Dataspace Connector to create al
 ### Basic features of Swagger UI
 
 Swagger UI allows to visualize the REST API’s components and interact with them. Each component you created has a self-description link, which can be used as complete URI (red marked below) or as ID (yellow marked below).
+
+<img src="https://user-images.githubusercontent.com/91048868/141110162-b3081d87-45a2-4ebb-8554-5b1154193e9c.jpg" width=700>
