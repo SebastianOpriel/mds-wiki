@@ -37,6 +37,7 @@ Swagger UI provides the following endpoints for components
 Furthermore it is possible to define a child component for a component (for example, _rule_ is the child component for _contract_) and perform all operations mentioned above with child components too. The detailed description of the REST API you can find [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/RestApi).
 
 For all operations within Swagger UI you must use the following sequence of commands: select **Try it out**, fill out all required parameters, select **Execute**.
+
 <img src="https://user-images.githubusercontent.com/91048868/141118138-79c94bfb-e972-4dbb-b6d0-213df82027f8.jpg" width=500>
 
-Responses with codes 200, 201 and 204 would mean that your interaction was successful, all other responses would mean that your interaction failed.
+HTTP Responses with codes 200, 201 or 204 would mean that your request was successful, all other responses would mean that your request failed. Further information about HTTP Responses you can find [here.](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
