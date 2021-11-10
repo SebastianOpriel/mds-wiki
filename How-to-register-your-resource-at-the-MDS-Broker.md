@@ -99,11 +99,11 @@ Use the endpoint `POST ​/api​/contracts​/{id}​/rules` inserting the _con
 
 **Step 8.** Create an _offer_
 
-<img src="https://user-images.githubusercontent.com/91048868/141161189-bd8cace2-9724-4504-be71-fcfa4f2cd5fd.jpg" width=450>
+<img src="https://user-images.githubusercontent.com/91048868/141163013-0b3a19b5-e81c-431b-9c34-6f4556cb43bf.jpg" width=450>
 <br/>
 <br/>
 
-Please note, that "[offer] title" and "[offer] description" are **key descriptions to represent your offer**, which are located directly in the broker catalog.
+Please note, that the "[offer] title" and the "[offer] description" are **key descriptions to represent your offer**, which are located directly in the broker catalog.
 
 **Step 9.** Link the _representation_ to the _offer_
 
