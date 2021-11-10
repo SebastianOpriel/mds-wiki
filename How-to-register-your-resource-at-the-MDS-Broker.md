@@ -36,8 +36,20 @@ Swagger UI provides the following endpoints for components
 
 Furthermore it is possible to define a child component for a component (for example, _rule_ is the child component for _contract_) and perform all operations mentioned above with child components too. The detailed description of the REST API you can find [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/RestApi).
 
-For all operations within Swagger UI you must use the following sequence of commands: select **Try it out**, fill out all required parameters, select **Execute**.
+For all operations within Swagger UI you must use the following sequence of commands: select **Try it out**, fill out all required parameters (if needed), select **Execute**.
 
 <img src="https://user-images.githubusercontent.com/91048868/141118138-79c94bfb-e972-4dbb-b6d0-213df82027f8.jpg" width=500>
 
-HTTP Responses with codes 200, 201 or 204 would mean that your request was successful, all other responses would mean that your request failed. Further information about HTTP Responses you can find [here.](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+HTTP Responses with codes 200, 201 or 204 would mean that your interaction was successful, all other responses would mean that your interaction failed. Further information about HTTP Responses you can find [here.](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+
+### Register your resource step-by-step
+
+**Step 1.** Create an _artifact_ 
+
+To provide your raw data you need create an artifact. For this test example an attrubute `value` containing a simple string is used. In the productive service you will use an attribute `accessUrl` to define your remote data source, as explained [here](https://international-data-spaces-association.github.io/DataspaceConnector/CommunicationGuide/v6/Provider#option-2-add-remote-data). 
+
+<img src="https://user-images.githubusercontent.com/91048868/141141000-14f646c0-f533-4910-9f9b-48635703d1dc.jpg" width=300>
+
+**Step 2. ** Create a _representation_
+
+<img src="https://user-images.githubusercontent.com/91048868/141144750-569c3961-08e2-432d-9e62-234678c4fdc8.jpg" width=300>
