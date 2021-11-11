@@ -36,7 +36,7 @@ Swagger UI provides the following endpoints for components
 
 Furthermore it is possible to define a child component for a component (for example, _rule_ is the child component for _contract_) and perform all operations mentioned above with child components too. The detailed description of the REST API you can find [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/RestApi).
 
-For all operations within Swagger UI you must use the following sequence of commands: select **Try it out**, fill out all required parameters (if needed), select **Execute**.
+For all operations within Swagger UI you must use the following sequence of commands: select **Try it out**, enter all required parameters (if needed), select **Execute**.
 
 <img src="https://user-images.githubusercontent.com/91048868/141118138-79c94bfb-e972-4dbb-b6d0-213df82027f8.jpg" width=500>
 
