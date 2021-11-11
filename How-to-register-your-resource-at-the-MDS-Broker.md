@@ -48,11 +48,15 @@ HTTP Responses with codes 200, 201 or 204 would mean that your interaction was s
 
 To provide your raw data you need to create an artifact. For this test example an attrubute `value` containing a simple string is used. In the productive service you will use an attribute `accessUrl` to define your remote data source, as explained [here](https://international-data-spaces-association.github.io/DataspaceConnector/CommunicationGuide/v6/Provider#option-2-add-remote-data). 
 
+Use the endpoint [Artifacts] `POST /api/artifacts`.
+
 <img src="https://user-images.githubusercontent.com/91048868/141141000-14f646c0-f533-4910-9f9b-48635703d1dc.jpg" width=300>
 <br/>
 <br/>
 
 **Step 2.** Create an _representation_
+
+Use the endpoint [Representations] `POST /api/representations`.
 
 <img src="https://user-images.githubusercontent.com/91048868/141144750-569c3961-08e2-432d-9e62-234678c4fdc8.jpg" width=350>
 <br/>
@@ -60,14 +64,15 @@ To provide your raw data you need to create an artifact. For this test example a
 
 **Step 3.** Link the _artifact_ to the _representation_
 
-Use the endpoint `POST ​/api​/representations​/{id}​/artifacts`.
+Use the endpoint [Representations] `POST ​/api​/representations​/{id}​/artifacts`.
 
 Enter the _representation_ **ID** and the _artifact_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141148819-483988b8-d8a4-4aae-9551-3684552ca667.jpg). 
 
 **Step 4.** Create an usage policy
 
-An overview of existing usage policies can be found [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl)
-You can use the endpoint `POST /api/examples/policy` to create an usage policy you needed. Input samples for different policies are presented [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl). In this example the simpliest policy "provide access" (data usage is allowed) is used.
+An overview of existing usage policies can be found [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl).
+
+You can use the endpoint [Usage Control] `POST /api/examples/policy` to create an usage policy you needed. Input samples for different policies are presented [here](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl). In this example the simpliest policy "provide access" (data usage is allowed) is used.
 
 <img src="https://user-images.githubusercontent.com/91048868/141151385-ebd9d11f-3645-478c-b5a6-1a6fa81f0ded.jpg" width=350>
 <br/>
@@ -75,7 +80,7 @@ You can use the endpoint `POST /api/examples/policy` to create an usage policy y
 
 **Step 5.** Create a _rule_
 
-You can just copy the created policy into the "value" attribute field (escape internal quotation marks with backslashes if needed).
+Use the endpoint [Rules] `POST ​/api​/rules`. You can just copy the created policy into the "value" attribute field (escape internal quotation marks with backslashes if needed).
 
 <img src="https://user-images.githubusercontent.com/91048868/141153874-e79e3ce3-52fb-4692-8e40-2ff1e56e528f.jpg" width=350>
 <br/>
@@ -83,17 +88,21 @@ You can just copy the created policy into the "value" attribute field (escape in
 
 **Step 6.** Create a _contract_
 
+Use the endpoint [Contracts] `POST ​/api​/contracts`.
+
 <img src="https://user-images.githubusercontent.com/91048868/141156014-3b645370-f328-49de-9217-680655c0cbdf.jpg" width=400>
 <br/>
 <br/>
 
 **Step 7.** Link the _rule_ to the _contract_
 
-Use the endpoint `POST ​/api​/contracts​/{id}​/rules`.
+Use the endpoint [Contracts] `POST ​/api​/contracts​/{id}​/rules`.
 
 Enter the _contract_ **ID** and the _rule_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141157105-8e6a6741-6241-46e9-b8d9-038417ce004e.jpg). 
 
 **Step 8.** Create an _offer_
+
+Use the endpoint [Offered Resources] `POST ​/api​/offers`.
 
 <img src="https://user-images.githubusercontent.com/91048868/141163013-0b3a19b5-e81c-431b-9c34-6f4556cb43bf.jpg" width=450>
 <br/>
@@ -103,17 +112,19 @@ Please note, that the "[offer] title" and the "[offer] description" are **key de
 
 **Step 9.** Link the _representation_ to the _offer_
 
-Use the endpoint `POST ​/api/offers/{id}/representations`.
+Use the endpoint [Offered Resources] `POST ​/api/offers/{id}/representations`.
 
 Enter the _offer_ **ID** and the _representation_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141268423-5f9b1396-5f8b-49e6-8188-ee413e0cac16.jpg). 
 
 **Step 10.** Link the _contract_ to the _offer_
 
-Use the endpoint `POST /api/offers/{id}/contracts`.
+Use the endpoint [Offered Resources] `POST /api/offers/{id}/contracts`.
 
 Enter the _offer_ **ID** and the _contract_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141269178-2a8c6489-f0e5-400c-bffa-04abebce4def.jpg). 
 
 **Step 11.** Create a _catalog_
+
+Use the endpoint [Catalogs] `POST ​/api​/catalogs`.
 
 <img src="https://user-images.githubusercontent.com/91048868/141269680-108b6560-9453-46f8-bf87-8ef801dbb0d2.jpg" width=300>
 <br/>
@@ -121,7 +132,7 @@ Enter the _offer_ **ID** and the _contract_ **URI** into [the corresponding fiel
 
 **Step 12.** Link the _offer_ to the _catalog_
 
-Use the endpoint `POST /api/catalogs/{id}/offers`.
+Use the endpoint [Catalogs] `POST /api/catalogs/{id}/offers`.
 
 Enter the _catalog_ **ID** and the _offer_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141270261-472dd7db-1cfd-498e-a55f-76085f22151d.jpg). 
 
