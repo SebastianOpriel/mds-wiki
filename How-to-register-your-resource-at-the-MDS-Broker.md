@@ -60,11 +60,9 @@ To provide your raw data you need create an artifact. For this test example an a
 
 **Step 3.** Link the _artifact_ to the _representation_
 
-Use the endpoint `POST ​/api​/representations​/{id}​/artifacts` inserting the _representation_ **ID** and the _artifact_ **URI** in the appropriate fields. 
+Use the endpoint `POST ​/api​/representations​/{id}​/artifacts`.
 
-<img src="https://user-images.githubusercontent.com/91048868/141148819-483988b8-d8a4-4aae-9551-3684552ca667.jpg" width=550>
-<br/>
-<br/>
+Enter the _representation_ **ID** and the _artifact_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141148819-483988b8-d8a4-4aae-9551-3684552ca667.jpg). 
 
 **Step 4.** Create an usage policy
 
@@ -91,11 +89,9 @@ You can just copy the created policy into the "value" attribute field (escape in
 
 **Step 7.** Link the _rule_ to the _contract_
 
-Use the endpoint `POST ​/api​/contracts​/{id}​/rules` inserting the _contract_ **ID** and the _rule_ **URI** in the appropriate fields. 
+Use the endpoint `POST ​/api​/contracts​/{id}​/rules`.
 
-<img src="https://user-images.githubusercontent.com/91048868/141157105-8e6a6741-6241-46e9-b8d9-038417ce004e.jpg" width=550>
-<br/>
-<br/>
+Enter the _contract_ **ID** and the _rule_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141157105-8e6a6741-6241-46e9-b8d9-038417ce004e.jpg). 
 
 **Step 8.** Create an _offer_
 
@@ -107,12 +103,46 @@ Please note, that the "[offer] title" and the "[offer] description" are **key de
 
 **Step 9.** Link the _representation_ to the _offer_
 
+Use the endpoint `POST ​/api/offers/{id}/representations`.
+
+Enter the _offer_ **ID** and the _representation_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141268423-5f9b1396-5f8b-49e6-8188-ee413e0cac16.jpg). 
+
 **Step 10.** Link the _contract_ to the _offer_
+
+Use the endpoint `POST /api/offers/{id}/contracts`.
+
+Enter the _offer_ **ID** and the _contract_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141269178-2a8c6489-f0e5-400c-bffa-04abebce4def.jpg). 
 
 **Step 11.** Create a _catalog_
 
+<img src="https://user-images.githubusercontent.com/91048868/141269680-108b6560-9453-46f8-bf87-8ef801dbb0d2.jpg" width=300>
+<br/>
+<br/>
+
 **Step 12.** Link the _offer_ to the _catalog_
+
+Use the endpoint `POST /api/catalogs/{id}/offers`.
+
+Enter the _catalog_ **ID** and the _offer_ **URI** into [the corresponding fields](https://user-images.githubusercontent.com/91048868/141270261-472dd7db-1cfd-498e-a55f-76085f22151d.jpg). 
 
 **Step 13.** Update The connector
 
+Use the endpoint [Messages] `POST /api/ids/connector/update`.
+
+Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recipient URL.
+
+<img src="https://user-images.githubusercontent.com/91048868/141270978-faaf7253-93ae-4967-b71b-d44442ae3ea6.jpg" width=400>
+<br/>
+<br/>
+
 **Step 14.** Register your resourse at the broker
+
+Use the endpoint [Messages] `POST /api/ids/resource/update`.
+
+Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recipient URL and the _offer_ **ID** as the resource id.
+
+<img src="https://user-images.githubusercontent.com/91048868/141272052-b1868e36-a452-4d6c-ab8c-0e3e5b206fe0.jpg" width=400>
+<br/>
+<br/>
+
+**Congratulations!** Now your resource should be available on [the Test Broker](https://broker.test.mobilitydataspace.io/resources).
