@@ -46,7 +46,7 @@ HTTP Responses with codes 200, 201 or 204 would mean that your interaction was s
 
 **Step 1.** Create an _artifact_ 
 
-To provide your raw data you need create an artifact. For this test example an attrubute `value` containing a simple string is used. In the productive service you will use an attribute `accessUrl` to define your remote data source, as explained [here](https://international-data-spaces-association.github.io/DataspaceConnector/CommunicationGuide/v6/Provider#option-2-add-remote-data). 
+To provide your raw data you need to create an artifact. For this test example an attrubute `value` containing a simple string is used. In the productive service you will use an attribute `accessUrl` to define your remote data source, as explained [here](https://international-data-spaces-association.github.io/DataspaceConnector/CommunicationGuide/v6/Provider#option-2-add-remote-data). 
 
 <img src="https://user-images.githubusercontent.com/91048868/141141000-14f646c0-f533-4910-9f9b-48635703d1dc.jpg" width=300>
 <br/>
@@ -141,7 +141,7 @@ Use the endpoint [Messages] `POST /api/ids/resource/update`.
 
 Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recipient URL and the _offer_ **ID** as the resource id.
 
-<img src="https://user-images.githubusercontent.com/91048868/141272052-b1868e36-a452-4d6c-ab8c-0e3e5b206fe0.jpg" width=400>
+<img src="https://user-images.githubusercontent.com/91048868/141272052-b1868e36-a452-4d6c-ab8c-0e3e5b206fe0.jpg" width=450>
 <br/>
 <br/>
 
