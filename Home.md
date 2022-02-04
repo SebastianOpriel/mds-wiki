@@ -45,7 +45,7 @@ The IDS interface for publishing a resource can be found at https://ids.broker.m
 
 #### Clearing House
 For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
-The Clearing House URL for the test stage is https://logging.mobilitydataspace.io/messages/log/
+The Clearing House URL for the pilot stage is https://logging.mobilitydataspace.io/messages/log/
 In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
 More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
