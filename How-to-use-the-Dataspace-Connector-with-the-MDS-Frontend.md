@@ -4,10 +4,10 @@
 
 2. Request the DAPS token at [daps-certificates@aisec.fraunhofer.de](mailto:daps-certificates@aisec.fraunhofer.de)
 
-3. Configure the connector. In the configuration file `resources/conf/config.json`
-a) set the path to the DAPS Token (keystore)
+3. Configure the connector. In the configuration file `resources/conf/config.json` <br>
+a) set the path to the DAPS Token (keystore) <br>
 b) change the connector deploy mode to PRODUCTIVE:<br>
-`"ids:connectorDeployMode" : { "@id" : "idsc:PRODUCTIVE_DEPLOYMENT },`
+`"ids:connectorDeployMode" : { "@id" : "idsc:PRODUCTIVE_DEPLOYMENT },`<br>
 c) configure [another parameters](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration) if needed
 
 4. Deploy and start the connector
@@ -26,4 +26,4 @@ c) configure [another parameters](https://international-data-spaces-association.
 
 5. If everything worked fine, the frontend for the local build is available at `https://localhost:8082/.` 
 
-<img src="https://user-images.githubusercontent.com/91048868/169023128-e79a8770-0469-4264-9894-9ceed79deba8.jpg" width=500>
+<img src="https://user-images.githubusercontent.com/91048868/169023128-e79a8770-0469-4264-9894-9ceed79deba8.jpg" width=600>
