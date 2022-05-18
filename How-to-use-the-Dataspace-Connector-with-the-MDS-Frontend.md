@@ -8,7 +8,8 @@
 a) set the path to the DAPS Token (keystore) <br>
 b) change the connector deploy mode to PRODUCTIVE:<br>
 `"ids:connectorDeployMode" : { "@id" : "idsc:PRODUCTIVE_DEPLOYMENT },`<br>
-c) configure [another parameters](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration) if needed
+c) set the connector accessURL <br>
+d) configure [another parameters](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration) if needed
 
 4. Deploy and start the connector
 
@@ -27,3 +28,8 @@ c) configure [another parameters](https://international-data-spaces-association.
 5. If everything worked fine, the frontend for the local build is available at `https://localhost:8082/.` 
 
 <img src="https://user-images.githubusercontent.com/91048868/169023128-e79a8770-0469-4264-9894-9ceed79deba8.jpg" width=600>
+
+6. Using _Advanced View => Settings => General_ set the connector name, connector description, connector curator and connector maintainer.
+Please be aware that this information is accurate and complete. It represents the connector on the MDS catalogue.
+
+<img src="https://user-images.githubusercontent.com/91048868/169081507-66ef0389-08ab-47ac-a240-4e588a9e6752.jpg" width=600>
