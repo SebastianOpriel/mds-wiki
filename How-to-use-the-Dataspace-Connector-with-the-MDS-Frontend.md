@@ -30,6 +30,6 @@ d) configure [another parameters](https://international-data-spaces-association.
 <img src="https://user-images.githubusercontent.com/91048868/169023128-e79a8770-0469-4264-9894-9ceed79deba8.jpg" width=600><br>
 
 6. Using _Advanced View => Settings => General_ set the connector name, connector description, connector curator and connector maintainer.
-**Please be aware that this information is accurate and complete**. It represents the connector on the MDS catalogue.
+**Please be aware that this information is accurate and complete**. It represents the connector in the MDS catalog.
 
 <img src="https://user-images.githubusercontent.com/91048868/169081507-66ef0389-08ab-47ac-a240-4e588a9e6752.jpg" width=600>
