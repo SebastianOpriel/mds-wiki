@@ -29,7 +29,7 @@ d) configure [another parameters](https://international-data-spaces-association.
 
 <img src="https://user-images.githubusercontent.com/91048868/169023128-e79a8770-0469-4264-9894-9ceed79deba8.jpg" width=600><br>
 
-6. Using _Advanced View => Settings => General_ set the connector name, connector description, connector curator and connector maintainer.
+6. Using _Advanced View => Settings => General_ set the connector name, connector description, connector curator (as URL) and connector maintainer )as URL).
 **Please be aware that this information is accurate and complete**. These fields represent the connector in the MDS catalog.
 
 <img src="https://user-images.githubusercontent.com/91048868/169081507-66ef0389-08ab-47ac-a240-4e588a9e6752.jpg" width=600>
@@ -55,3 +55,24 @@ Alternatively you can select _BROKER_ tab, enter the [Catalog URL](https://githu
 <img src="https://user-images.githubusercontent.com/91048868/170662482-56dd90dd-9bf4-4f76-81aa-ba021a472b30.jpg" width=400><br>
 
 5. Click the URL-Button under _Download_ to download the requested artifact.
+
+## Data offering
+
+1. Using _Data Offering => Offerings => Add Offering_ set the offer title, offer description, offer publisher (as URL), keywords, license (as URL), language and payment modality and click the _NEXT_ button. 
+**Please be aware that this information is accurate and complete**. These fields represent the offer in the MDS catalog. 
+
+<img src="https://user-images.githubusercontent.com/91048868/170665339-0edb7376-de3b-43bc-991b-69bf69d233b3.jpg" width=600><br>
+
+2. Create a new usage policy pattern or use a template if available and acceptable and click the _NEXT_ button.
+
+<img src="https://user-images.githubusercontent.com/91048868/170666289-5b549773-7bf7-4bef-8cb3-6a62d7699b35.jpg" width=400><br>
+
+3. Define an artifact you want to offer as a local file or external data source. For the last one you have a choice between a REST-Interface with basic or API-Key Identification and a database request with an SQL Query. Set a file type if not automatically set, then click the _NEXT_ button.
+
+<img src="https://user-images.githubusercontent.com/91048868/170668168-dd0ab024-0955-4994-bcca-3a7f68599b7b.jpg" width=400><br>
+
+4. Add a catalog for your offer or use an existing one and click the _NEXT_ button. Please don't mix up this catalog with the MDS Catalog/Broker. In this case the catalog is just an (arbitrary defined by the data publisher) directory for data offers originating from the same domain (e.g. mobility data) or fulfilling similar purposes.
+
+<img src="https://user-images.githubusercontent.com/91048868/170670873-a8123104-c33e-4cf9-9c1d-6a8d62d006e0.jpg" width=400><br>
+
+5. Select the MDS Catalog/Broker and click the _SAVE_ button. If everything worked fine, the offer (resource) is now available in the MDS Catalog.
