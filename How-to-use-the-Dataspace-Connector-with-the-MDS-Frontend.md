@@ -34,6 +34,18 @@ d) configure [another parameters](https://international-data-spaces-association.
 
 <img src="https://user-images.githubusercontent.com/91048868/169081507-66ef0389-08ab-47ac-a240-4e588a9e6752.jpg" width=600>
 
+## Register the MDS Catalog/Broker
+
+1. Using _IDS Ecosystem => Brokers => Add Broker_ set the URL of the MDS Catalog.
+
+<img src="https://user-images.githubusercontent.com/91048868/170670873-a8123104-c33e-4cf9-9c1d-6a8d62d006e0.jpg" width=400><br>
+
+2. Click _REGISTER_ (on the right side).
+
+<img src="https://user-images.githubusercontent.com/91048868/170673882-9004f4c5-6d88-4b7e-8192-f2bbfe8714e1.jpg" width=600><br>
+
+If everything worked fine, the connector is now available in the MDS Catalog.
+
 ## Data consumption
 
 1. Using _Data Consumption => Requests => Request Resource_ select a desired resourse. You can directly enter the Connector URL (Access URL in the MDS Catalog) and select _Show available reasources_
@@ -73,6 +85,10 @@ Alternatively you can select _BROKER_ tab, enter the [Catalog URL](https://githu
 
 4. Add a catalog for your offer or use an existing one and click the _NEXT_ button. Please don't mix up this catalog with the MDS Catalog/Broker. In this case the catalog is just an (arbitrary defined by the data publisher) directory for data offers originating from the same domain (e.g. mobility data) or fulfilling similar purposes.
 
-<img src="https://user-images.githubusercontent.com/91048868/170670873-a8123104-c33e-4cf9-9c1d-6a8d62d006e0.jpg" width=400><br>
+<img src="https://user-images.githubusercontent.com/91048868/170673032-d8ad5994-7266-47ca-8279-3feb513a90ad.jpg" width=600><br>
 
-5. Select the MDS Catalog/Broker and click the _SAVE_ button. If everything worked fine, the offer (resource) is now available in the MDS Catalog.
+5. Select the MDS Catalog/Broker and click the _SAVE_ button. 
+
+<img src="https://user-images.githubusercontent.com/91048868/170673109-714c9f51-a683-4a8b-a894-15940f4300ae.jpg" width=600><br>
+
+If everything worked fine, the offer (resource) is now available in the MDS Catalog.
