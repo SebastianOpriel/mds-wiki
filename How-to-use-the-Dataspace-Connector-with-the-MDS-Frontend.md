@@ -2,7 +2,8 @@
 
 1. Download [a last release of the Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector/releases).
 
-2. Request the DAPS token at [daps-certificates@aisec.fraunhofer.de](mailto:daps-certificates@aisec.fraunhofer.de)
+2. For test purposes you can use [a generic DAPS token](https://github.com/Fraunhofer-AISEC/trusted-connector/tree/master/examples/etc). 
+For the productive usage please request the DAPS token at [daps-certificates@aisec.fraunhofer.de](mailto:daps-certificates@aisec.fraunhofer.de)
 
 3. Configure the connector. In the configuration file `resources/conf/config.json` <br>
 a) set the path to the DAPS Token (keystore) <br>
