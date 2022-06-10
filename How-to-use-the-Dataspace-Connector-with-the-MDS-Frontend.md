@@ -1,3 +1,6 @@
+To access the Mobility Data Space in a convenient way you need to install the Dataspace Connector and the MDS Frontend as well as to obtain the DAPS token.  
+Please take the following steps:
+
 <img src="https://user-images.githubusercontent.com/91048868/173030556-0a80320c-5361-47b5-858b-e2358b6c9993.jpg" width=800><br>
 
 ## Set-up the connector
