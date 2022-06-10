@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/91048868/173029576-94d0e65f-c519-4545-8f75-8b8a7bf5b5e1.jpg" width=900><br>
+
 ## Set-up the connector
 
 1. Download [a last release of the Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector/releases).
