@@ -1,3 +1,5 @@
+**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Frontend](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-use-the-Dataspace-Connector-with-the-MDS-Frontend) you have now the much more convenient option to register your resources in th MDS Catalog.
+
 ## Overview of resource components
 After your connector [has been successfully registered](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS), you can start defining, describing and offering resourses via the broker.
 
