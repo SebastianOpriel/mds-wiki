@@ -1,6 +1,6 @@
 To access the Mobility Data Space in a convenient way you need to install the Dataspace Connector and the MDS Frontend as well as to obtain the DAPS token.  
-For the access to the MDS test stage please take the following steps <br>
-(for the productive stage follow same steps + set your unique DAPS Token and the URL of the MDS Catalog instead of Test Catalog)
+For the access to the MDS test environment please take the following steps <br>
+(for the productive environment follow the same steps + set your unique DAPS Token and the URL of the MDS Catalog instead of Test Catalog)
 
 <img src="https://user-images.githubusercontent.com/91048868/173030556-0a80320c-5361-47b5-858b-e2358b6c9993.jpg" width=800><br>
 
