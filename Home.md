@@ -16,7 +16,7 @@ In the connector configuration the values of the DAPS properties must be set as 
 Now you can [connect your connector e.g. to one of the brokers](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS#testing-the-connector-communication) to publish your own resources or request resources from other connectors in the dataspace.
 
 ## Stages
-There are two separate stages or environments of the Mobility Data Space. There is a test environment and a pilot environment. As the name implies, the test environment is used to test new connectors and resources. 
+There are two separate stages or environments of the Mobility Data Space. There is a test environment and a productive environment. As the name implies, the test environment is used to test new connectors and resources. 
 If you have a new connector, you should first test it in the test environment.
 
 Please note, that there is no logical link between the _test mode_ of the Dataspace Connector and the Mobility Data Space _test environment_. You need to use the **productive mode** of the Dataspace Connector to register in the Broker **test environment**.
@@ -35,8 +35,8 @@ The Clearing House URL for the test stage is https://logging.test.mobilitydatasp
 In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
 More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
-### Pilot environment
-An overview of the pilot environment can be found here: https://logging.mobilitydataspace.io/
+### Productive environment
+An overview of the productive environment can be found here: https://logging.mobilitydataspace.io/
 
 #### Broker / Metadata Catalog
 The user interface of the broker/metadata catalog can be found at https://broker.mobilitydataspace.io/resources  
@@ -45,7 +45,7 @@ The IDS interface for publishing a resource can be found at https://ids.broker.m
 
 #### Clearing House
 For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
-The Clearing House URL for the pilot stage is https://logging.mobilitydataspace.io/messages/log/
+The Clearing House URL for the productive stage is https://logging.mobilitydataspace.io/messages/log/
 In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
 More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
