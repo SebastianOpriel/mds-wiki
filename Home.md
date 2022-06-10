@@ -50,4 +50,4 @@ In the Dataspace Connector configuration the value of the clearing.house.url pro
 More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
 
 ## Ontology
-The Mobility Data Space uses the MobiDS Ontologie. 
+The Mobility Data Space uses the MDS Ontologie. 
