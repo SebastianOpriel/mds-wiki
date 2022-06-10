@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/91048868/173029576-94d0e65f-c519-4545-8f75-8b8a7bf5b5e1.jpg" width=900><br>
+<img src="https://user-images.githubusercontent.com/91048868/173030088-73eeb549-97de-4ae5-a7c2-8702b8f8f95b.jpg" width=800><br>
 
 ## Set-up the connector
 
