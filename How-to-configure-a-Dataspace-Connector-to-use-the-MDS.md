@@ -3,7 +3,7 @@ The first thing you need to do to let your connector communicate with others in 
 
 The certificate will be send to you in a zip-File by e-Mail. The zip-File contains a p12-file which must be configured in your Dataspace Connector as described in the [Dataspace Connector Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#step-2-ids-certificate) section.
 
-# Testing the connector communication
+# Testing the connector communication using Swagger UI
 To check if your connector can communicate with others in the MDS you can register your connector at the [MDS Test Broker](https://broker.test.mobilitydataspace.io/connector). Follow these steps to register your connector:
 1. Browse to the OpenApi Frontend of your connector. If you have your connector running locally on port 8080 this would be https://localhost:8080/api/docs 
 <br>Please note, that the application uses Spring Security. Each endpoint behind /** needs a [user authentication](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#authentication).
