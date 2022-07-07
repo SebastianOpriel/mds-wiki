@@ -1,55 +1,36 @@
 # Currently under construction until 11.07. 
 
-# Welcome to Mobility Data Space
+# Welcome to the Mobility Data Space
 
 ## Access to Mobility Data Space 
 
-To get access to the Mobility Data Space with your connector, you first need a valid DAPS token. You can request this token under at daps-certificates@aisec.fraunhofer.de or directly from [Gerd Brost](https://www.dataspaces.fraunhofer.de/de/software/identity_provider.html).
+To get access to the Mobility Data Space you only need a signed contract. <br>
+Then you can start a registration process to obtain your unique MDS certificate (so called DAPS token).
 
-If you are using the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), you can configure your connector with tokens as described under  [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration). 
-
-In the connector configuration the values of the DAPS properties must be set as follows (in the Dataspace Connector already set by default):<br>
-
-> `daps.url=https://daps.aisec.fraunhofer.de`<br>
-> `daps.token.url=https://daps.aisec.fraunhofer.de/v2/token`<br>
-> `daps.key.url=https://daps.aisec.fraunhofer.de/v2/.well-known/jwks.json`<br>
-> `daps.key.url.kid={'https://daps.aisec.fraunhofer.de/v2/.well-known/jwks.json':'default'}`
-
-Now you can [connect your connector e.g. to one of the brokers](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS#testing-the-connector-communication) to publish your own resources or request resources from other connectors in the dataspace.
+If you are using the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), you can configure your connector with tokens as described under  [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration). <br>
+Please ensure that you are using a 7.x.x. version of the DSC connector, otherwise [update your DSC connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector/releases).
+To configure the connector please follow steps on the Settings Page.
 
 ## Stages
 There are two separate stages or environments of the Mobility Data Space. There is a test environment and a productive environment. As the name implies, the test environment is used to test new connectors and resources. 
-If you have a new connector, you should first test it in the test environment.
+If you implemented or installed a new connector, you should first test it in the test environment.
 
-Please note, that there is no logical link between the _test mode_ of the Dataspace Connector and the Mobility Data Space _test environment_. You need to use the **productive mode** of the Dataspace Connector to register in the Broker **test environment**.
+Please note, that there is no logical link between the _test mode_ of the Dataspace Connector and the Mobility Data Space _test environment_. You need to use the **productive mode** of the Dataspace Connector to register in the **test environment** Catalog.
 
-### Test environment
-An overview of the test environment can be found here: https://logging.test.mobilitydataspace.io/
+### Components in the test environment
 
-#### Broker / Metadata Catalog
-The user interface of the broker/metadata catalog can be found at https://broker.test.mobilitydataspace.io/resources
-The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
-The IDS interface for publishing a resource can be found at https://ids.broker.test.mobilitydataspace.io/infrastructure **(available for POST requests only)**
+DAPS: https://daps.test.mobility-dataspace.eu
+Catalog: https://catalog.test.mobility-dataspace.eu
+Clearing House: https://clearing.test.mobility-dataspace.eu
 
-#### Clearing House
-For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
-The Clearing House URL for the test stage is https://logging.test.mobilitydataspace.io/messages/log/
-In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
-More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
+### Components in the productive environment
 
-### Productive environment
-An overview of the productive environment can be found here: https://logging.mobilitydataspace.io/
+DAPS: https://daps.mobility-dataspace.eu
+Catalog: https://catalog.mobility-dataspace.eu
+Clearing House: https://clearing.mobility-dataspace.eu
 
-#### Broker / Metadata Catalog
-The user interface of the broker/metadata catalog can be found at https://broker.mobilitydataspace.io/resources  
-The IDS self-disclosure are available at https://ids.broker.mobilitydataspace.io 
-The IDS interface for publishing a resource can be found at https://ids.broker.mobilitydataspace.io/infrastructure **(available for POST requests only)**.
-
-#### Clearing House
-For logging purposes a valid Clearing House URL must be configured in the Dataspace Connector configuration.
-The Clearing House URL for the productive stage is https://logging.mobilitydataspace.io/messages/log/
-In the Dataspace Connector configuration the value of the clearing.house.url property must be set accordingly.
-More information on how to configure the Clearing House URL for the Dataspace Connector can be found here: https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration#ids-settings
+To ensure traceability and auditability of transactions in the MDS, we require our participants to use the Clearing House. Only metadata (transaction ID, timestamp) are logged. Please make sure to set the logging in the connector accordingly. For further details s. Settings Page.
 
 ## Ontology
-The Mobility Data Space uses the MDS Ontologie. 
+The Mobility Data Space uses the MDS Ontologie for the describing of additional mobility related metadata attributes. 
+
