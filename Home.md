@@ -19,15 +19,15 @@ Please note, that there is no logical link between the _test mode_ of the Datasp
 
 ### Components in the test environment
 
-DAPS: https://daps.test.mobility-dataspace.eu
-Catalog: https://catalog.test.mobility-dataspace.eu
-Clearing House: https://clearing.test.mobility-dataspace.eu
+* DAPS: https://daps.test.mobility-dataspace.eu
+* Catalog: https://catalog.test.mobility-dataspace.eu
+* Clearing House: https://clearing.test.mobility-dataspace.eu
 
 ### Components in the productive environment
 
-DAPS: https://daps.mobility-dataspace.eu
-Catalog: https://catalog.mobility-dataspace.eu
-Clearing House: https://clearing.mobility-dataspace.eu
+* DAPS: https://daps.mobility-dataspace.eu
+* Catalog: https://catalog.mobility-dataspace.eu
+* Clearing House: https://clearing.mobility-dataspace.eu
 
 To ensure traceability and auditability of transactions in the MDS, we require our participants to use the Clearing House. Only metadata (transaction ID, timestamp) are logged. Please make sure to set the logging in the connector accordingly. For further details s. Settings Page.
 
