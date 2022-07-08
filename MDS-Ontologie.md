@@ -1,6 +1,6 @@
 The Mobility Data Space uses the MDS Ontologie for the describing of additional mobility related metadata attributes. Already definded attributes are:
 
-### Enumeration Data category (mandatory):
+### Enumeration Data category (mandatory)
 * Traffic Information
 * Roadworks and Road Conditions
 * Traffic Flow Information
@@ -12,9 +12,9 @@ The Mobility Data Space uses the MDS Ontologie for the describing of additional 
 * Car and Bike Sharing
 * Infrastructure
 * Various
-<br>
-<br>
-### Enumeration Data Subcategory (parent category in brackets):
+
+### Enumeration Data Subcategory 
+(parent category in brackets) <br>
 * Roadworks (Roadworks and Road Conditions)
 * Road Conditions (Roadworks and Road Conditions)
 * Realtime Traffic Flow Data (Traffic Flow Information)
@@ -33,13 +33,11 @@ The Mobility Data Space uses the MDS Ontologie for the describing of additional 
 * Water Routes (Infrastructure)
 * Cargo & Logistics (Various)
 * Toll Information (Various)
-<br>
-<br>
-### Enumeration Transport Mode:
+
+### Enumeration Transport Mode
 * Road
 * Rail
 * Water
 * Air
-<br>
-<br>
-If you need additional attributes or expansion of the existing enumerations to better describe your data offering, send your feedback to the Mobility data space or sign up to participate in technical working groups. The intent of the MDS is to further develop the data space in collaboration with participants.
+
+If you need additional attributes or expansion of the existing enumerations to better describe your data offering, please send your feedback to us or sign up to participate in technical working groups. The intent of the MDS is to further develop the data space in collaboration with participants.
