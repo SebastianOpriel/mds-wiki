@@ -1,4 +1,4 @@
-**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Frontend](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-use-the-Dataspace-Connector-with-the-MDS-Frontend) you have now the much more convenient option to register your resources in th MDS Catalog.
+**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Frontend](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/5.-Step-(Offering-&-Consuming-data)) you have now the much more convenient option to register your resources in th MDS Catalog.
 
 ## Overview of resource components
 After your connector [has been successfully registered](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS), you can start defining, describing and offering resourses via the broker.
@@ -142,7 +142,7 @@ Enter the _catalog_ **ID** and the _offer_ **URI** into [the corresponding field
 
 Use the endpoint [Messages] `POST /api/ids/connector/update`.
 
-Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recipient URL.
+Enter `https://broker.test.mobility-dataspace.eu/infrastructure` as the recipient URL.
 
 <img src="https://user-images.githubusercontent.com/91048868/141270978-faaf7253-93ae-4967-b71b-d44442ae3ea6.jpg" width=400>
 <br/>
@@ -152,10 +152,10 @@ Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recip
 
 Use the endpoint [Messages] `POST /api/ids/resource/update`.
 
-Enter `https://ids.broker.test.mobilitydataspace.io/infrastructure` as the recipient URL and the _offer_ **ID** as the resource id.
+Enter `https://broker.test.mobility-dataspace.eu/infrastructure` as the recipient URL and the _offer_ **ID** as the resource id.
 
 <img src="https://user-images.githubusercontent.com/91048868/141272052-b1868e36-a452-4d6c-ab8c-0e3e5b206fe0.jpg" width=450>
 <br/>
 <br/>
 
-**Congratulations!** Now your resource should be available on [the Test Broker](https://broker.test.mobilitydataspace.io/resources).
+**Congratulations!** Now your resource should be available on [the Test Broker](https://catalog.test.mobility-dataspace.eu/resources).
