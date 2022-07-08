@@ -14,10 +14,10 @@ After the contract signing with the Mobility Data Space you can get an access to
 Download the connector. We recommend to use the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), but you also can use other connectors which are compatible with the DSC. <br>
 Optional but strongly recommended: Download and install the MDS Frontend.
 
-### Second Step (Certificates). 
+### [Second Step (Certificates)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/2.-Step-(Certificates))
 Register your connector to obtain your unique MDS certificate (so called DAPS token)
 
-### Third Step (Configuration). 
+### [Third Step (Configuration)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/3.-Step-(Configuration))
 Configure your connector before starting.
 
 ### [Fourth Step (Registration in the Catalog)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/4.-Step-(Registration-in-the-MDS-Catalog))
