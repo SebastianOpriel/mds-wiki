@@ -20,7 +20,7 @@ Register your connector to obtain your unique MDS certificate (so called DAPS to
 ### Third Step (Configuration). 
 Configure your connector before starting.
 
-### Fourth Step (Registration in the Catalog). 
+### [Fourth Step (Registration in the Catalog)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/4.-Step-(Registration-in-the-MDS-Catalog))
 Register your connector in the MDS Catalog. <br>
 
 ### Fifth Step (Offering/Consuming data). 
