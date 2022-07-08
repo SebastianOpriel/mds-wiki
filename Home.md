@@ -6,7 +6,9 @@ The overview of the Mobility Data Space with explanations about component functi
 
 ## Access to the Mobility Data Space 
 
-After the contract signing with the Mobility Data Space you can get an access to the MDS in five simple steps (estimated time for the test implementation is one hour). <br>
+After the contract signing you can get an access to the Mobility Dataspace in five simple steps (estimated time for the test implementation is one hour). <br>
+
+<img src="https://user-images.githubusercontent.com/91048868/178000078-a17b7b49-dcae-4e3a-98f3-8c6628b9c5fa.jpg" width=800><br>
 
 ### [First Step (Software installation)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/1.-Step-(Software-installation))
 Download the connector. We recommend to use the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), but you also can use other connectors which are compatible with the DSC. <br>
