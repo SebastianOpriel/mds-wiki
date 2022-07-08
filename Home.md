@@ -2,9 +2,30 @@
 
 # Welcome to the Mobility Data Space
 
-## Access to Mobility Data Space 
+## Overview of the Mobility Data Space 
 
-To get access to the Mobility Data Space you only need a signed contract. <br>
+The overview of the Mobility Data Space with explanations about component functionalities and currently deployed environments you can find [hier](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/MDS-Architecture)
+
+## Access to the Mobility Data Space 
+
+After the contract signing with the Mobility Data Space you can get an access to the MDS in four simple steps (estimated time for the test implementation is one hour). <br>
+
+### **First Step (Software installation).** 
+Download and install the connector. We recommend to use the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), but you also can use other connectors which are compatible with the DSC. <br>
+_Optionally but recommended:_ Download and install the MDS Frontend.
+
+### **Second Step (Certificates). **
+Register your connector to obtain your unique MDS certificate (so called DAPS token)
+
+### **Third Step (Configuration). **
+Configure your connector before starting.
+
+### **Fourth Step (Registration in the Catalog). **
+Register your connector in the MDS Catalog. <br>
+Congratulations! Now you can offer or consume mobility data via MDS.
+
+
+
 Then you can start a registration process to obtain your unique MDS certificate (so called DAPS token).
 
 If you are using the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), you can configure your connector with tokens as described under  [Dataspace Connector-Configuration](https://international-data-spaces-association.github.io/DataspaceConnector/Deployment/Configuration). <br>
