@@ -10,9 +10,9 @@ The overview of the Mobility Data Space with explanations about component functi
 
 After the contract signing with the Mobility Data Space you can get an access to the MDS in five simple steps (estimated time for the test implementation is one hour). <br>
 
-### First Step (Software installation).
+### [First Step (Software installation)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/1.-Step-(Software-installation))
 Download and install the connector. We recommend to use the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), but you also can use other connectors which are compatible with the DSC. <br>
-_Optionally but recommended:_ Download and install the MDS Frontend.
+Optional but highly recommended: Download and install the MDS Frontend.
 
 ### Second Step (Certificates). 
 Register your connector to obtain your unique MDS certificate (so called DAPS token)
