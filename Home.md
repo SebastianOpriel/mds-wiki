@@ -23,7 +23,7 @@ Configure your connector before starting.
 ### [Fourth Step (Registration in the Catalog)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/4.-Step-(Registration-in-the-MDS-Catalog))
 Register your connector in the MDS Catalog. <br>
 
-### Fifth Step (Offering/Consuming data). 
+### [Fifth Step (Offering & Consuming data)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/5.-Step-(Offering-&-Consuming-data))
 Congratulations! Now you can offer and/or consume mobility data via MDS.
 
 
