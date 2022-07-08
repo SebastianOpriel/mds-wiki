@@ -8,7 +8,7 @@ The overview of the Mobility Data Space with explanations about component functi
 
 After the contract signing you can get an access to the Mobility Dataspace in five simple steps (estimated time for the test implementation is one hour). <br>
 
-<img src="https://user-images.githubusercontent.com/91048868/178000078-a17b7b49-dcae-4e3a-98f3-8c6628b9c5fa.jpg" width=800><br>
+<img src="https://user-images.githubusercontent.com/91048868/178003112-5814af5e-8927-4b52-8411-c6ddda2eda3b.jpg" width=800><br>
 
 ### [First Step (Software installation)](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/1.-Step-(Software-installation))
 Download the connector. We recommend to use the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector), but you also can use other connectors which are compatible with the DSC. <br>
