@@ -1,5 +1,3 @@
-# Mobility Data Space: Technical Onboarding Guide
-
 ## Overview of the Mobility Data Space 
 
 The overview of the Mobility Data Space with explanations about component functionalities and currently deployed environments you can find [hier](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/MDS-Architecture).
