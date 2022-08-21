@@ -23,7 +23,7 @@ services:
       - 8080:8080
     environment:
       - CONFIGURATION_PATH=/conf/config.json
-      - BOOTSTRAP_PATH=./src/resources
+      - BOOTSTRAP_PATH=/conf
       - BOOTSTRAP_ENABLED=true
       - CAMEL_TRUSTSTORE_PATH=/conf/truststore.p12
 
@@ -55,7 +55,11 @@ services:
     networks:
       - local
     volumes:
-      - ./dataspaceconnector/config:/conf
+      - ./conf/config.json:/conf/config.json
+      - ./conf/keystore.p12:/conf/keystore.p12
+      - ./conf/truststore.p12:/conf/truststore.p12
+      - ./conf/brokerCatalog.jsonld:/conf/brokerCatalog.jsonld
+      - ./conf/bootstrap.properties:/conf/bootstrap.properties
     depends_on:
       - postgres
     restart: always
