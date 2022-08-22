@@ -46,10 +46,11 @@ services:
       - SPRING_SECURITY_APP_PASSWORD=password
       - REFERRED_CHECK=true
 
-      - DAPS_INCOMING_DAT_DEFAULT_WELLKNOWN=/jwks.json
-      - DAPS_KEY_URL=https://daps.test.mobility-dataspace.eu/jwks.json
-      - DAPS_TOKEN_URL=https://daps.test.mobility-dataspace.eu/token
       - DAPS_URL=https://daps.test.mobility-dataspace.eu
+      - DAPS_TOKEN_URL=https://daps.test.mobility-dataspace.eu/token
+      - DAPS_KEY_URL=https://daps.test.mobility-dataspace.eu/jwks.json
+      - DAPS_INCOMING_DAT_DEFAULT_WELLKNOWN=/jwks.json
+      - DAPS_WHITELISTED_URL=https://daps.test.mobility-dataspace.eu
 
       - CLEARING_HOUSE_URL=https://clearing.test.mobility-dataspace.eu/logs/messages/
     networks:
@@ -73,7 +74,7 @@ services:
       - CONNECTOR_URL=https://dataspaceconnector:8080
       - CONNECTOR_USER=admin
       - CONNECTOR_PASSWORD=password
-      - UI_TITLE=MDS Connector UI
+      - UI_TITLE=MDS Dataspace Connector UI
     networks:
       - local
     depends_on:

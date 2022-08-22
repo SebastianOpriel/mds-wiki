@@ -1,4 +1,4 @@
-**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Frontend](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/5.-Step-(Offering-&-Consuming-data)) you have now the much more convenient option to register your resources in th MDS Catalog.
+**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Dataspace Connector UI](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/5.-Step-(Offering-&-Consuming-data)) you have now the much more convenient option to register your resources in th MDS Catalog.
 
 ## Overview of resource components
 After your connector [has been successfully registered](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS), you can start defining, describing and offering resourses via the broker.
@@ -111,6 +111,20 @@ Use the endpoint [Offered Resources] `POST ​/api​/offers`.
 <br/>
 
 Please note, that the "[offer] title" and the "[offer] description" are **key descriptions to represent your offer**, which are located directly in the broker catalog.
+
+
+When describing a resource, you can enter MDS attributes which are processed by the MDS Catalog manually:
+```
+...
+"language": "ENGLISH",
+"paymentMethod": "free",
+"https://w3id.org/mds#dataCategory": "Infrastructure",
+"https://w3id.org/mds#dataSubcategory": "Pedestrian Networks",
+"https://w3id.org/mds#transportMode": "Road",
+"https://w3id.org/mds#geoReferenceMethod": "Open LR",
+"https://w3id.org/mds#dataModel": "Datex II",
+...
+```
 
 **Step 9.** Link the _representation_ to the _offer_
 
