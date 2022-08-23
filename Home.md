@@ -1,7 +1,6 @@
-# Overview of the Mobility Data Space 
-The overview of the Mobility Data Space with explanations about component functionalities and currently deployed environments you find [here](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/0.-MDS-Architecture,-Components-and-Stages).
+The overview of the Mobility Data Space with explanations about component functionalities and currently deployed environments you find [here](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/Architecture-Overview).
 
-In these documents several abbreviations and technical component names are used. Please see the official [glossay](https://github.com/International-Data-Spaces-Association/IDS-G/blob/main/Glossary/README.md) of International Data Spaces for further explanation or [Reference Architecture Model](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0) for detailed explanation.
+In these documents several abbreviations and technical component names are used. Please see the official [glossary](https://github.com/International-Data-Spaces-Association/IDS-G/blob/main/Glossary/README.md) of International Data Spaces for further explanation or [Reference Architecture Model](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0) for detailed explanation.
 
 
 # Access to the Mobility Data Space 

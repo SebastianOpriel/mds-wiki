@@ -1,7 +1,7 @@
-**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the [MDS Dataspace Connector UI](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/5.-Step-(Offering-&-Consuming-data)) you have now the much more convenient option to register your resources in th MDS Catalog.
+**DEPRECATED** Please note that the following description addresses the use of Swagger UI. With the MDS Dataspace Connector UI you have now the much more convenient option to register your resources in th MDS Catalog.
 
 ## Overview of resource components
-After your connector [has been successfully registered](https://github.com/Mobility-Data-Space/mobility-data-space/wiki/How-to-configure-a-Dataspace-Connector-to-use-the-MDS), you can start defining, describing and offering resourses via the broker.
+After your connector has been successfully registered, you can start defining, describing and offering resources via the broker.
 
 For this purpose you need to create the following components:
 * _artifact_, which has a 1:1 relation to the raw data
